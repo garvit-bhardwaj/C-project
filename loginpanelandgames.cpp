@@ -894,7 +894,7 @@ void newuser(){
 	fclose(fptr);
 	while(1){
 	system("cls");
-	printf("\n\n\n\n\n\n\n\n\n\t\tEnter the username that you want to register(it should be exactly 8 characters): %s",username);
+	printf("\n\n\n\n\n\n\n\n\n\t\tEnter the Username that you want to Register(it should be exactly 8 characters): %s",username);
 	printf("\n\n\n\n\t\tEnter the password(it should be exacty 8 characters): ");
 	char p1;
 	start2:
@@ -904,7 +904,7 @@ void newuser(){
 		if(p1=='\b')
 		{
 			system("cls");
-		   	printf("\n\n\n\n\n\n\n\n\n\t\tEnter the username that you want to register(it should be exactly 8 characters): %s",username);
+		   	printf("\n\n\n\n\n\n\n\n\n\t\tEnter the Username that you want to Register(it should be exactly 8 characters): %s",username);
 			printf("\n\n\n\n\t\tEnter the password(it should be exacty 8 characters): ");
 			for(int i=0;i<j-1;i++)
 			printf("*");
