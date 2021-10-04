@@ -1017,7 +1017,7 @@ int main(){
 	}
 	else{
 		printf("\n\nInvalid input");
-		printf("\nPress '1' to try again and any other key to exit program...\t");
+		printf("\nPress '1' to try again and any other key to Exit program...\t");
 		int a;
 		scanf("%d",&a);
 		if(a==1){
